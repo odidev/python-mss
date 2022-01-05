@@ -3,6 +3,7 @@
 version: ~> 1.0
 
 language: python
+arch: amd64
 dist: xenial
 arch: arm64
 dist: xenial
