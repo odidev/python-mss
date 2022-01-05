@@ -2,13 +2,9 @@
 # https://docs.travis-ci.com/user/build-config-validation#beta-opt-in
 version: ~> 1.0
 
-language:
-- python: 3.8
-  dist: xenial
-- python: 3.8
-  arch: arm64
-  dist: xenial
-  os: linux
+language: python
+dist: xenial
+os: linux
 
 
 env: 
