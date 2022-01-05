@@ -4,7 +4,10 @@ version: ~> 1.0
 
 language: python
 dist: xenial
+arch: arm64
+dist: xenial
 os: linux
+
 
 env: 
   global:
