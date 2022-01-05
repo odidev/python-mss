@@ -20,12 +20,15 @@ jobs:
   include:
     - name: Code quality checks
       python: "3.8"
+      arch: arm64
       env: TOXENV=lint
     - name: Types checking
       python: "3.8"
+      arch: arm64
       env: TOXENV=types
     - name: Documentation build
       python: "3.8"
+      arch: arm64
       env: TOXENV=docs
     - name: Python 3.5 on macOS
       os: osx
@@ -98,18 +101,23 @@ jobs:
       env: TOXENV=pypy3
     - name: Python 3.5 on GNU/Linux
       python: "3.5"
+      arch: arm64
       env: TOXENV=py35
     - name: Python 3.6 on GNU/Linux
       python: "3.6"
+      arch: arm64
       env: TOXENV=py36
     - name: Python 3.7 on GNU/Linux
       python: "3.7"
+      arch: arm64
       env: TOXENV=py37
     - name: Python 3.8 on GNU/Linux
       python: "3.8"
+      arch: arm64
       env: TOXENV=py38
     - name: Python 3.9 on GNU/Linux
       python: 3.9-dev
+      arch: arm64
       env: TOXENV=py39
     - name: Python 3.10 on GNU/Linux
       python: nightly
