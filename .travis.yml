@@ -31,4 +31,4 @@ before_script:
   - python3 -m pip install --upgrade pip tox
 
 script:
-  - python3 -m tox
+  - python3 -m tox 
